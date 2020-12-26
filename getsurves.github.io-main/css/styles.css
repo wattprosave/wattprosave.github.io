@@ -1,0 +1,759 @@
+/*
+  Project Name : Page Builder
+  Author Company : Ewebcraft
+  Author Website : http://www.ewebcraft.com
+  Author Email : ewebcraft@gmail.com
+*/
+
+
+/* -- general styles -- */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700|Raleway:400,500,600,700,800|Montserrat');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #383838;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+a,
+button,
+.btn {
+    outline: none;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover,
+a:active,
+a:focus,
+button:hover,
+button:active,
+button:focus,
+.btn:hover,
+.btn:active,
+.btn:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.nopadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.padding-left-z {
+    padding-left: 0px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.wow {
+    visibility: hidden;
+}
+
+p {
+    line-height: 26px;
+}
+
+img {
+    max-width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number]::-moz-inner-spin-button,
+input[type=number]::-moz-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=date]::-moz-inner-spin-button,
+input[type=date]::-moz-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+
+/* -- general styles -- */
+
+
+/* form-submision */
+
+.success,
+.error {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+div.module.parallax {
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.extra-space {
+    margin-top: 50px;
+    display: block;
+}
+
+.m-20 {
+    margin-top: 20px;
+    display: block;
+}
+
+.m-40 {
+    margin-top: 40px;
+    display: block;
+}
+
+
+/* ******* --MoneyEarn Banner-- ****** */
+
+.MoneyEarn-banner9 {
+    background-image: url("banner.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 0px 100px;
+    position: relative;
+}
+
+.MoneyEarn-banner9 .for-image {
+    position: relative;
+}
+
+.MoneyEarn-banner9 .for-image .banner-image {
+    position: absolute;
+    right: 0px;
+    bottom: -18%;
+}
+
+@media (max-width: 980px) {
+    .MoneyEarn-banner9 .for-image .banner-image {
+        display: none;
+    }
+    .MoneyEarn-banner9 .banner-block {
+        /* margin-top: 0px !important; */
+        /* margin-bottom: 100px !important; */
+    }
+}
+
+.MoneyEarn-banner9 .banner-block h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.MoneyEarn-banner9 .banner-block hr {
+    border: 2px solid #fff;
+    margin: auto 0 20px;
+    width: 14%;
+    text-align: left;
+}
+
+.MoneyEarn-banner9 .banner-block p {
+    color: #fff;
+    margin: 24px 180px 0;
+}
+
+.MoneyEarn-banner9 .banner-block h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.MoneyEarn-banner9 .banner-block h1,
+.MoneyEarn-banner9 .banner-block h6 {
+    color: #fff;
+    display: inline-block;
+    font-size: 60px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.MoneyEarn-banner9 .banner-text h2 {
+    color: #2c2c2c;
+    font-family: raleway;
+    font-size: 44px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.MoneyEarn-banner9 .banner-block .btn {
+    margin-top: 60px;
+    position: relative;
+    font-size: 24px;
+    color: #000;
+}
+
+.MoneyEarn-banner9 .banner-block .btn span {
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.MoneyEarn-banner9 .banner-text h4 {
+    color: #2c2c2c;
+    font-family: raleway;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.MoneyEarn-banner9 .banner-text p {
+    color: #272727;
+    margin-bottom: 0;
+}
+
+.MoneyEarn-banner9 .hvr-sweep-to-right::before {
+    background: #ae8648 none repeat scroll 0 0;
+}
+
+.MoneyEarn-banner9 .btn {
+    background-color: #fff;
+    border: medium none;
+    border-radius: 1px;
+    color: #ae8648;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.MoneyEarn-banner9 .btn:hover {
+    background-color: #ff3d00;
+    color: #fff;
+}
+
+.MoneyEarn-banner9 .banner-block .btn:hover::after {
+    color: #AE8648;
+}
+
+
+/* ******* --MoneyEarn work-- ****** */
+
+#MoneyEarn_work {
+    padding: 70px 0;
+}
+
+.MoneyEarn_work_main {
+    padding-bottom: 60px;
+}
+
+.MoneyEarn_work_main h3 {
+    color: #f74007;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.MoneyEarn_work_main h4 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.MoneyEarn_work_icon {
+    border-radius: 50%;
+    height: 117px;
+    margin: 0 auto;
+    width: 117px;
+    border: 2px solid #2e64fb;
+}
+
+.MoneyEarn_work_icon i {
+    color: #2e64fb;
+    font-size: 36px;
+    line-height: 121px;
+    display: block;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+
+.MoneyEarn_work_icon:hover {
+    background-color: #2e64fb;
+    color: #fff
+}
+
+.MoneyEarn_work_icon:hover i {
+    color: #fff;
+}
+
+.MoneyEarn_work_block h4 {
+    color: #2e64fb;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 23px;
+    margin-top: 45px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.MoneyEarn_work_block:hover .work_icon,
+.work_block:hover .work_icon i {
+    background-color: #0099e9;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* ******* --MoneyEarn Feauture-- ****** */
+
+#MoneyEarn_feauture {
+    padding: 80px 0 40px;
+}
+
+.feauture_main h3 {
+    font-size: 48px;
+    color: #f74007;
+}
+
+.feauture_main h2 {
+    font-size: 36px;
+    color: #2e64fb;
+}
+
+#MoneyEarn_feauture .work_main {
+    margin-bottom: 40px;
+}
+
+#MoneyEarn_feauture .feature-media {
+    margin-bottom: 80px;
+}
+
+#MoneyEarn_feauture .media-body h4 {
+    color: #303030;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+#MoneyEarn_feauture .media-left {
+    padding-right: 20px;
+    padding-bottom:30px;
+}
+
+#MoneyEarn_feauture .media-body p {
+    color: #1e1e1e;
+    font-size: 15px;
+    line-height: 1.7em;
+    margin: 0px;
+}
+
+#MoneyEarn_feauture .icon:hover {
+    background-color: #2e64fb;
+}
+
+#MoneyEarn_feauture .icon:hover h3 {
+    color: #fff;
+}
+
+#MoneyEarn_feauture .icon:before,
+#MoneyEarn_feauture .icon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 57.98px;
+    height: 57.98px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 10.0086px;
+}
+
+#MoneyEarn_feauture .icon {
+    position: relative;
+    width: 82px;
+    height: 47.34px;
+    background-color: transparent;
+    margin: 30px 0 0;
+    z-index: 9999;
+    border-left: solid 2px #2e64fb;
+    border-right: solid 2px #2e64fb;
+}
+
+#MoneyEarn_feauture .icon:before {
+    top: -28.9914px;
+    border-top: solid 2.8284px #2e64fb;
+    border-right: solid 2.8284px #2e64fb;
+    z-index: -999;
+}
+
+#MoneyEarn_feauture .icon:after {
+    bottom: -28.9914px;
+    border-bottom: solid 2.8284px #2e64fb;
+    border-left: solid 2.8284px #2e64fb;
+    z-index: -999;
+}
+
+#MoneyEarn_feauture .icon h3 {
+    line-height: 50px;
+    font-size: 36px;
+    text-align: center;
+    z-index: 999;
+    color: #2e64fb;
+    display: block;
+}
+
+
+/* ******* --MoneyEarn Learn-- ****** */
+
+#MoneyEarn_learn {
+    background: url(learn-bg.jpg) center no-repeat;
+    background-size: cover;
+    padding: 55px 0px;
+}
+
+#MoneyEarn_learn .learn_main {
+    margin-bottom: 60px;
+}
+
+#MoneyEarn_learn .learn_main h3 {
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#MoneyEarn_learn .learn-text h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#MoneyEarn_learn .learn-text h2,
+.learn-text p {
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+#MoneyEarn_learn .learn-text ul {
+    /* padding: 0px; */
+    margin-top: 50px;
+}
+
+#MoneyEarn_learn .learn-text ul>li {
+    padding: 0px;
+    margin: 0 0px 40px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #fff;
+    font-size: 14px;
+    list-style: none;
+    display: inline-block;
+}
+
+#MoneyEarn_learn .number {
+    display: block;
+    text-align: center;
+    position: relative;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    height: 49px;
+    margin: 0;
+    width: 49px;
+    float: left;
+}
+
+#MoneyEarn_learn .learn-text ul>li>.number h2 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 49px;
+    margin: 0;
+    text-align: center;
+}
+
+#MoneyEarn_learn .learn-text ul>li> p {
+    color: #fff;
+    padding-left: 70px;
+    text-align: left;
+    font-size: 24px;
+    padding-top: 0;
+    line-height: 30px;
+}
+
+
+/* ******* --MoneyEarn started-- ****** */
+
+#MoneyEarn_started {
+    background-image: url(getting-bg.jpg);
+    background-position: top center;
+    background-size: cover;
+    color: #FFF;
+    padding: 75px 0;
+}
+
+#MoneyEarn_started h2 {
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#MoneyEarn_started h1 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 45px;
+}
+
+#MoneyEarn_started a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    text-align: center;
+    background: transparent;
+    display: inline-block;
+    border-radius: 0;
+    text-transform: uppercase;
+    Box-shadow: 0 0 0 #ffffff;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 10px 50px;
+    border: 2px solid #fff;
+}
+
+#MoneyEarn_started a:hover {
+    background-color: #fff;
+    color: #2d60ef;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease 0s;
+}
+
+
+/* ******* --MoneyEarn Testimonial-- ****** */
+
+#MoneyEarn_testimonal {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+#MoneyEarn_testimonal .testimonal_main {
+    padding-bottom: 50px;
+}
+
+#MoneyEarn_testimonal .testimonal_main h3 {
+    color: #f74007;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#MoneyEarn_testimonal .testi_img img {
+    margin-bottom: 40px;
+    display: block;
+    width: auto;
+    margin: 35px auto 0px;
+}
+
+#MoneyEarn_testimonal .item span {
+    display: block;
+}
+
+#MoneyEarn_testimonal .item h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0099e9;
+    margin-top: 50px;
+    display: inline-flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+#MoneyEarn_testimonal .item h4 span {
+    font-size: 14px;
+    color: #909090;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+#MoneyEarn_testimonal .item span .comma-left {
+    width: auto;
+}
+
+#MoneyEarn_testimonal .item span .comma-right {
+    float: right;
+    width: auto;
+}
+
+
+/* ******* --MoneyEarn Copy Right-- ******  */
+
+#MoneyEarn_copyRight {
+    background-color: #0099e9;
+    padding: 30px 0;
+}
+
+#MoneyEarn_copyRight a {
+    color: #fff;
+}
+
+#MoneyEarn_copyRight .footer-detail h3 {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: inherit;
+    margin: 0;
+    display: inline-flex;
+}
+
+#MoneyEarn_copyRight .footer-detail a {
+    transition: all 0.3s ease 0s;
+}
+
+#MoneyEarn_copyRight .footer-detail a i.fa {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+#MoneyEarn_copyRight p {
+    margin: 0px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: right;
+}
+
+
+/* ******* --MoneyEarn Responsive-- ******  */
+
+
+/* responsive  Document */
+
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 990px) {
+    #MoneyEarn_learn {
+        text-align: center;
+    }
+    #MoneyEarn_learn .learn-text ul>li {
+        display: inherit;
+    }
+    br {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo,
+    #MoneyEarn_learn,
+    .MoneyEarn-banner9 {
+        text-align: center;
+    }
+    .banner-text {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .banner-text h1 {
+        float: none;
+    }
+    .MoneyEarn-banner9 .banner-block h1,
+    .MoneyEarn-banner9 .banner-block h6,
+    #MoneyEarn_learn .learn_main h3,
+    #MoneyEarn_testimonal .testimonal_main h3,.feauture_main h3 {
+        font-size: 35px;
+    }
+    .item {
+        padding: 0 15px;
+    }
+    .btn-submit {
+        width: 90%;
+    }
+    .MoneyEarn_work_block h4 {
+        font-size: 25px;
+    }
+    .item span {
+        padding-bottom: 26px;
+    }
+    .MoneyEarn_work_block {
+        margin-bottom: 50px;
+    }
+    #MoneyEarn_copyRight,
+    #MoneyEarn_copyRight p {
+        text-align: center;
+    }
+    #MoneyEarn_copyRight p {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:426px) {
+    .footer-detail h3 {
+        margin-bottom: 20px;
+    }
+    #testimonal .testi_img img {
+        margin: 0px auto;
+    }
+    .learn_main h3,
+    .work_main h3,
+    .testimonal_main h3,
+    .MoneyEarn_work_main h3,.feauture_main h3 {
+        font-size: 30px;
+    }
+    .MoneyEarn_work_block h4 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner-text h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    span {
+        font-size: 30px;
+    }
+    .learn_main h3,
+    .work_main h3 {
+        font-size: 25px;
+    }
+}
